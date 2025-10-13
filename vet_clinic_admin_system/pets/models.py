@@ -1,5 +1,5 @@
 from django.db import models
-from pet_owners.models import PetOwner
+from person.models import Person
 
 class Pet(models.Model):
     SPECIES_CHOICES = [
@@ -23,7 +23,7 @@ class Pet(models.Model):
     weight = models.DecimalField(max_digits=5, decimal_places=2, blank=True, null=True)
 
     owner = models.ForeignKey(
-        PetOwner,
+        Person,
         on_delete=models.CASCADE,
         related_name="pets"
     )
