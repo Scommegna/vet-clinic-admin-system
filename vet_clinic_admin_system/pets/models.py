@@ -57,4 +57,4 @@ class Pet(models.Model):
     additional_info = models.TextField(blank=True, null=True)
 
     def _str_(self):
-        return f"{self.name} ({self.species})"
+        return self.name
