@@ -7,7 +7,7 @@ class Vet(Person):
         max_length=8,
         unique=True,
         validators=[validate_crmv],
-        help_text="Informe no formato UF12345 (ex.: MG12345)"
+        help_text="Enter in the format UF12345 (e.g., MG12345)"
     )
     specialty = models.CharField(max_length=100)
 

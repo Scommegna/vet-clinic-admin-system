@@ -18,7 +18,7 @@ class Person(models.Model):
         max_length=11,
         validators=[validate_cpf],
         unique=True,
-        help_text="Informe o CPF com ou sem pontuação."
+        help_text="Enter the CPF with or without punctuation."
     )
     birth_date = models.DateField(blank=True, null=True)
     gender = models.CharField(
