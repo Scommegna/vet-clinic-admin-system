@@ -11,9 +11,10 @@ class Person(models.Model):
     name = models.CharField(max_length=150)
     phone = models.CharField(
         max_length=13,
-        validators=[validate_phone]
+        validators=[validate_phone],
+        unique=True
     )
-    email = models.EmailField()
+    email = models.EmailField(unique=True)
     document = models.CharField(
         max_length=11,
         validators=[validate_cpf],
