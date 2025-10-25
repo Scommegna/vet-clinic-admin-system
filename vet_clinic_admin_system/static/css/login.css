@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(135deg, #2c3e50, #3498db);
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+h3 {
+  color: #2c3e50;
+  font-weight: 600;
+}
+
+.alert {
+  font-size: 0.9rem;
+}
