@@ -1,6 +1,3 @@
-/* Enhanced Django Admin Styles - Modern & Professional */
-
-/* ==================== BASE STYLES ==================== */
 body {
   background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf1 100%);
   font-family: 'Inter', 'Segoe UI', 'Poppins', sans-serif;
@@ -8,7 +5,6 @@ body {
   line-height: 1.6;
 }
 
-/* ==================== HEADER ==================== */
 #header {
   background: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%) !important;
   border-bottom: none;
@@ -50,7 +46,6 @@ body {
   border-bottom-color: #fff;
 }
 
-/* ==================== CONTENT AREA ==================== */
 #content {
   background: #ffffff;
   border-radius: 16px;
@@ -62,7 +57,6 @@ body {
   border: 1px solid rgba(226, 232, 240, 0.8);
 }
 
-/* ==================== MODULES ==================== */
 .module {
   border: 1px solid #e2e8f0;
   border-radius: 12px;
@@ -89,7 +83,6 @@ body {
   border-radius: 0;
 }
 
-/* ==================== LINKS ==================== */
 .addlink, .changelink {
   color: #2563eb !important;
   font-weight: 600;
@@ -115,7 +108,6 @@ body {
   transform: translateX(2px);
 }
 
-/* ==================== FILTER SIDEBAR ==================== */
 #changelist-filter {
   background: linear-gradient(to bottom, #ffffff 0%, #f8fafc 100%);
   border-radius: 12px;
@@ -165,7 +157,6 @@ body {
   color: #1e40af;
 }
 
-/* ==================== TABLES ==================== */
 table {
   border-collapse: separate;
   border-spacing: 0;
@@ -217,7 +208,6 @@ table tbody td {
   font-size: 14px;
 }
 
-/* ==================== BUTTONS & INPUTS ==================== */
 button, input[type=submit], .button, .submit-row input {
   background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%) !important;
   border: none;
@@ -252,7 +242,6 @@ button:active, input[type=submit]:active, .button:active {
   box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
 }
 
-/* ==================== FORM ELEMENTS ==================== */
 select, input[type=text], input[type=email], input[type=number],
 input[type=date], input[type=password], input[type=url], textarea {
   border: 2px solid #e2e8f0;
@@ -276,7 +265,6 @@ select:hover, input:hover, textarea:hover {
   border-color: #94a3b8;
 }
 
-/* ==================== FIELDSETS ==================== */
 fieldset {
   background-color: #f8fafc;
   border: 1px solid #e2e8f0;
@@ -305,7 +293,6 @@ fieldset h2 {
   border-bottom: none;
 }
 
-/* ==================== RECENT ACTIONS ==================== */
 #recent-actions-module {
   background: linear-gradient(to bottom, #ffffff 0%, #f8fafc 100%);
   border-radius: 12px;
@@ -338,7 +325,6 @@ fieldset h2 {
   background-color: #f8fafc;
 }
 
-/* ==================== PAGINATION ==================== */
 .pagination {
   padding: 16px 0;
   text-align: center;
@@ -366,7 +352,6 @@ fieldset h2 {
   font-weight: 600;
 }
 
-/* ==================== MESSAGES & ALERTS ==================== */
 .messagelist {
   list-style: none;
   padding: 0;
@@ -405,7 +390,6 @@ fieldset h2 {
   border-left: 4px solid #2563eb;
 }
 
-/* ==================== BREADCRUMBS ==================== */
 .breadcrumbs {
   background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
   padding: 12px 20px;
@@ -426,7 +410,6 @@ fieldset h2 {
   color: #1e40af;
 }
 
-/* ==================== ACTION CHECKBOXES ==================== */
 .action-checkbox {
   margin-right: 8px;
 }
@@ -451,7 +434,6 @@ fieldset h2 {
   margin-right: 8px;
 }
 
-/* ==================== DASHBOARD MODULES ==================== */
 #content-main {
   width: 100%;
 }
@@ -464,7 +446,6 @@ fieldset h2 {
   width: 100%;
 }
 
-/* ==================== DELETE CONFIRMATION ==================== */
 .delete-confirmation ul {
   padding-left: 20px;
   margin: 16px 0;
@@ -475,7 +456,6 @@ fieldset h2 {
   color: #475569;
 }
 
-/* ==================== RESPONSIVE ADJUSTMENTS ==================== */
 @media (max-width: 768px) {
   #content {
     padding: 20px;
