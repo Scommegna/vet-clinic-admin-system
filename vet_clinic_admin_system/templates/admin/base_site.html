@@ -1,14 +1,19 @@
 {% extends "admin/base.html" %}
-{% load static %}
+{% load static bootstrap5 %}
 
 {% block title %}Vet Clinic Admin{% endblock %}
 
-{% block branding %}
-<h1 id="site-name">
-    <a href="{% url 'admin:index' %}">Vet Clinic Admin</a>
-</h1>
+{% block extrastyle %}
+  {% bootstrap_css %}
+  <link href="{% static 'css/custom_admin.css' %}" rel="stylesheet">
 {% endblock %}
 
-{% block extrastyle %}
-<link rel="stylesheet" href="{% static 'css/login.css' %}">
+{% block branding %}
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm">
+    <div class="container-fluid">
+      <a class="navbar-brand fw-semibold" href="{% url 'admin:index' %}">
+        🐾 Vet Clinic Admin
+      </a>
+    </div>
+  </nav>
 {% endblock %}
