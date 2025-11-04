@@ -56,5 +56,5 @@ class Pet(models.Model):
     birth_date = models.DateField(blank=True, null=True)
     additional_info = models.TextField(blank=True, null=True)
 
-    def _str_(self):
+    def __str__(self):
         return self.name

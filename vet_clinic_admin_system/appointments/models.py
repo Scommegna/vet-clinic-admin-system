@@ -21,4 +21,4 @@ class Appointment(models.Model):
     additional_info = models.TextField(blank=True, null=True)
 
     def __str__(self):
-        return f"Appointment for {self.pet.name} with Dr. {self.vet.name} on {self.datetime.strftime('%Y-%m-%d %H:%M:%S')}"
+        return f"Appointment for {self.pet.name} with Dr. {self.vet.username} on {self.datetime.strftime('%Y-%m-%d %H:%M:%S')}"

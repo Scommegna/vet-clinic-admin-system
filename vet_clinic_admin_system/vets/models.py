@@ -12,5 +12,5 @@ class Vet(Person):
     specialty = models.CharField(max_length=100)
 
 
-    def _str_(self):
-        return f"{self.name} ({self.crmv})"
+    def __str__(self):
+        return f"{self.username} ({self.crmv})"
